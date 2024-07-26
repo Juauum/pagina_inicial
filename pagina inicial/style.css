@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*============MAIN===============*/
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*============HEADER=============*/
+
+header .div1{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+header .div2{
+    background-color: rgb(211, 208, 208);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 100px 0 100px 0;
+}
+
+header .div2 input{
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+
+/*============= NAV =================*/
+
+nav{
+   text-align: center;
+}
+
+
+.secao1 h2{
+    text-align: center;
+}
+
+.secao1 div{
+    display: flex;
+    gap: 20px;
+}
+
+.secao1 div img{
+    width: 100%;
+    height: 300px;
+    border: 1px solid;
+}
+
+.secao1 p{
+    width: 100%;
+    height: auto;
+
+
+    
+}
+
