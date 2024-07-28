@@ -5,7 +5,11 @@
   padding: 0;
 }
 
+h2{
+    background: linear-gradient(to right, green, transparent);
+}
 
+/*////// HEADER ///////////*/
 header .div1{
   display: flex;
   justify-content: space-around;
@@ -14,6 +18,15 @@ header .div1{
   color: white;
   
 }
+
+header .div1 p{
+    margin-top: 20px;
+}
+
+header .div1 .logo{
+    width: 60px;
+}
+
 
 header .div2{
   background-color: #a8a8a8;
@@ -31,16 +44,26 @@ header .div2 input{
   border-radius: 5px;
 }
 
+/*/////// NAV ///////*/
+
 nav{
   text-align: center;
+  margin-bottom: 20px;
 }
+
+/*///// MAIN ///////*/
 
 main{
   min-width: 300px;
   max-width: 1000px;
   margin: auto;
   padding: 20px;
+  background-color: rgb(226, 220, 220);
+  border-radius: 0 0 20px 20px;
+  box-shadow: 2px 2px 5px black ;
 }
+
+/*///// SECAO 01 /////*/
 
 .secao1 h2{
   text-align: center;
@@ -67,6 +90,8 @@ main{
  
 }
 
+/*///// SECAO 02 /////*/
+
 .secao2 h2, h3{
   text-align: center;
   margin-bottom: 20px;
@@ -89,6 +114,8 @@ main{
     text-align: center;
     margin-bottom: 20px;
 }
+
+/*///// SECAO 03 /////*/
 
 .secao3{
     display: flex;
@@ -114,6 +141,8 @@ main{
    text-align: justify;
 }
 
+/*///// SECAO 04 /////*/
+
 .secao4{
     display: flex;
     gap: 20px;
@@ -137,6 +166,8 @@ main{
     border: 1px solid;
 }
 
+/*////// FOOTER /////*/
+
 footer{
     background-color: black;
     color: whitesmoke;
@@ -154,10 +185,11 @@ footer .div1 p{
 footer .div2 {
   display: flex;
   gap: 10px;
+  
 }
 
 
-footer img{
+footer  img{
   width: 15px;
   height: 15px;
  

@@ -13,7 +13,7 @@
  
  <header>
   <div class="div1">
-    <img src="coruja_novo.png" alt="logo">
+    <img src="../imagens/coruja_logo-pq.png" alt="logo" class="logo">
     <p>Professor</p>
     <p>xxxxxxxxx</p>
   </div>
@@ -25,15 +25,17 @@
   </div>
  </header>
  
-<!-- NAV -->
-  
-  <nav>
-    <h2>Alguma das Vagas</h2>  
-  </nav>
 
 <!-- MAIN -->
+
+ <main> 
+
+ <nav>
+    <h2>Alguma das Vagas</h2>  
+  </nav>
   
- <main>  
+ <!-- SECAO 01 --> 
+
    <section class="secao1">
        <h2>Resumo do "sobre"/ propósito do site</h2>
      <div> 
@@ -46,7 +48,7 @@
      </div>
     </section>
 
-  <!-- SECTION 02 -->
+  <!-- SECAO 02 -->
   
     <section class="secao2">
       <h2>Estrutura interativa com instruções de uso inicial do site.</h2>
@@ -63,7 +65,7 @@
       </p>
     </section>
 
-  <!-- SECTION 03 -->
+  <!-- SECAO 03 -->
 
    <section class="secao3"> 
        <img src="img_branco.jpg" alt="imagem">
@@ -79,7 +81,7 @@
       </div>  
   </section>
 
-  <!-- SECTION 04 -->
+  <!-- SECAO 04 -->
    
    <section class="secao4">
     <div>
@@ -105,9 +107,9 @@
   <div class="div1">
     <p>Redes Sociais</p>
     <div class="div2">
-      <img src="imagens/insta.svg" alt="instagram">
-      <img src="imagens/face.svg" alt="facebook">
-      <img src="imagens/twitter.svg" alt="twitter">
+      <img src="../imagens/insta.svg" alt="instagram">
+      <img src="../imagens/face.svg" alt="facebook">
+      <img src="../imagens/twitter2.svg" alt="twitter">
     </div>
   </div>
   </footer>  
