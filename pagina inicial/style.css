@@ -1,70 +1,109 @@
 @charset "utf-8";
 
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-/*============MAIN===============*/
-
-main{
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    padding: 20px;
-}
-
-/*============HEADER=============*/
 
 header .div1{
-    background-color: gray;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: gray;
+  color: white;
+  
 }
 
 header .div2{
-    background-color: rgb(211, 208, 208);
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    padding: 100px 0 100px 0;
+  background-color: #a8a8a8;
+  display: flex;
+  padding: 80px;
+  gap: 20px;
+  justify-content: center;
+  
+  
 }
 
 header .div2 input{
-    padding: 5px;
-    border: 0;
-    border-radius: 10px;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
 }
-
-/*============= NAV =================*/
 
 nav{
-   text-align: center;
+  text-align: center;
+}
+
+main{
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+#secao1 h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#secao1 div{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#secao1 div img{
+  width: 50%;
+  height: 300px;
+  border: 1px solid;
+  
+}
+
+#secao1 div p{
+  width: 50%;
+  height: 300px;
+  text-align: justify;
+ 
+}
+
+#secao2 h2, h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#secao2 ol{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  list-style-type: inside;
+  margin-bottom: 20px;
+  
+}
+
+::marker{
+  color: red;
 }
 
 
-.secao1 h2{
-    text-align: center;
+
+footer .div1 p{
+  margin-bottom: 20px;
 }
 
-.secao1 div{
-    display: flex;
-    gap: 20px;
+footer .div2 {
+  display: flex;
+  gap: 10px;
 }
 
-.secao1 div img{
-    width: 100%;
-    height: 300px;
-    border: 1px solid;
+
+footer img{
+  width: 15px;
+  height: 15px;
+ 
 }
 
-.secao1 p{
-    width: 100%;
-    height: auto;
 
 
-    
-}
+
 
