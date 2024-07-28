@@ -28,40 +28,13 @@
 <!-- NAV -->
   
   <nav>
-    <h2>Alguma das Vagas</h2>
-    <div class="carrossel">
-        <div class="arrow" id="prev">&#8249;</div>
-        <div class="carousel">
-            <div class="carousel-item">1</div>
-            <div class="carousel-item">2</div>
-            <div class="carousel-item">3</div>
-        </div>
-        <div class="arrow" id="next">&#8250;</div>
-    </div>
-    <script>
-        const carousel = document.querySelector('.carousel');
-        const items = document.querySelectorAll('.carousel-item');
-        const prev = document.getElementById('prev');
-        const next = document.getElementById('next');
-       
-      let index = 0;
-       
-      prev.addEventListener('click', () => {
-            index = (index > 0) ? index - 1 : items.length - 1;
-            carousel.style.transform = `translateX(${-index * (items[0].offsetWidth + 20)}px)`;
-        });
-
-        next.addEventListener('click', () => {
-            index = (index < items.length - 1) ? index + 1 : 0;
-            carousel.style.transform = `translateX(${-index * (items[0].offsetWidth + 20)}px)`;
-        });
-    </script>
+    <h2>Alguma das Vagas</h2>  
   </nav>
 
 <!-- MAIN -->
   
  <main>  
-   <section id="secao1">
+   <section class="secao1">
        <h2>Resumo do "sobre"/ propósito do site</h2>
      <div> 
       <img src="img_branco.jpg" alt="imagem">
@@ -75,7 +48,7 @@
 
   <!-- SECTION 02 -->
   
-    <section id="secao2">
+    <section class="secao2">
       <h2>Estrutura interativa com instruções de uso inicial do site.</h2>
       <h3>Veja como funciona:</h3>
       <ol>
@@ -132,9 +105,9 @@
   <div class="div1">
     <p>Redes Sociais</p>
     <div class="div2">
-      <img src="insta.svg" alt="instagram">
-      <img src="face.svg" alt="facebook">
-      <img src="twitter.png" alt="twitter">
+      <img src="imagens/insta.svg" alt="instagram">
+      <img src="imagens/face.svg" alt="facebook">
+      <img src="imagens/twitter.svg" alt="twitter">
     </div>
   </div>
   </footer>  
